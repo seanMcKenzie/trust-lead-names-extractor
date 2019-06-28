@@ -15,7 +15,7 @@ import java.util.List;
 
 @RestController()
 @RequiredArgsConstructor
-@RequestMapping("/api/v1")
+@RequestMapping("/api/v1/lead-names")
 public class LeadNamesExtractorController {
 
     private final LeadNamesExtractorService leadNamesExtractorService;
